@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.block1{
+    margin:20px;
+    height: auto;
+    background-color: rgb(211, 218, 215);
+    padding: 30px;
+
+}
+.block2{
+    padding:10;
+    padding-top: 10px;
+    background-color: rgb(248, 247, 246);
+}
+input[type="text"],input[type="date"],input[type="email"]{
+    height:50px;
+}
+input[type="submit"]{
+    width:90px;
+    height:40px;
+}
+.nav{
+    background-color: black;
+    text-align: center;
+  }

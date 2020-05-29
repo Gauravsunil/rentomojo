@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  input[type="text"]{
+    height: 50px;
+  }
+  .collapsible:after{
+      content:'\002B';
+      color:white;
+      font-weight:bold;
+      float: right;
+      margin-left: 5px;
+  }
+  .active:after{
+      content:"\2212";
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    transition: ease-out;
+    background-color: #f1f1f1;
+  }
+.block1{
+    margin: 30px;
+    background-color: rgb(211, 218, 215);
+    padding: 30px;
+
+}  
+.block2{
+    padding:20;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+.nav{
+  background-color: black;
+  text-align: center;
+}
