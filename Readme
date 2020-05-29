@@ -1,0 +1,12 @@
+-To develop this task i used php  with mysql for backend
+-for backend operations of adding contact,fetching contacts,editing contacts i used mysql for backend in scripts folder
+-and all the styling is done using css and boostrap in the folder styles
+-nd i have applied validations in the form of add contact and edit contact where few fiels are required which need to be fill 
+and the two contact dont have same mobile number i have also applied this validation
+
+and this i hosted on 000webhost
+
+
+so heres the link-
+
+https://rentomojo.000webhostapp.com/
